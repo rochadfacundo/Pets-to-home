@@ -1,0 +1,19 @@
+.login-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.login-container form {
+  width: 100%; /* Asegura que el formulario ocupe el ancho completo del contenedor */
+}
+
+
+.logo {
+  width: 150px; /* Ajusta el ancho de la imagen según sea necesario */
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-bottom: 20px; /* Espacio entre la imagen y el formulario */
+}
